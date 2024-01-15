@@ -53,16 +53,12 @@ element has its `id` attribute set (e.g. `xyz`) then
 you can set the `textContent` property of the element
 directly as follows:
 
-(\*\*) Remember also that you can use the `.toFixed(n)` method
-on a numeric value to convert it to a string with
-a fixed number of decimal places.
-
 ```javascript
 xyz.textContent = 'new value';
 ```
 
+(\*\*) Remember also that you can use the `.toFixed(n)` method
+on a numeric value to convert it to a string with
+a fixed number of decimal places.
+
 NOTE: Only modify the `docs/app.js` and `docs/index.html` files. Do not make changes to any other files.
-
-The final result will look like the image below.
-
-![screenshot](screenshot.png)
